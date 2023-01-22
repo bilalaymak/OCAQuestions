@@ -1,9 +1,9 @@
-package questions;
+package questions.questions01;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class x1 {
+public class Q1 {
     public static void main(String[] args) {
 
         //Q1:
@@ -62,6 +62,8 @@ public class x1 {
             idx++;
         } while(idx <size-1);
         System.out.println("the top element: " + stack[idx]);// the top element: 30
+
+
 
 
 
