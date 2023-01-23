@@ -1,6 +1,6 @@
 package questions.questions01;
 
-public class Q5 {
+public class Q05 {
 
    public static void doSum(Integer x, Integer y){
        System.out.println("Integer sum is " + (x+y));

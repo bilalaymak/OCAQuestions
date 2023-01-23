@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Q4 {
+public class Q04 {
     public static void main(String[] args) {
         String[] strs = {"A","B"};
         int idx = 0;

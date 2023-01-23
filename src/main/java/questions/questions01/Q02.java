@@ -1,6 +1,6 @@
 package questions.questions01;
 
-public class Q2 {
+public class Q02 {
 
     //Q1:
     static int i; // static fields gets changed for every object
@@ -8,8 +8,8 @@ public class Q2 {
 
     public static void main(String[] args) {
 
-        Q2 q1 = new Q2();
-        Q2 q2 = new Q2();
+        Q02 q1 = new Q02();
+        Q02 q2 = new Q02();
         q1.i  = 3;
         q1.j = 4;
         q2.i = 5;

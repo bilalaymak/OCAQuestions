@@ -3,12 +3,12 @@ package questions.inheritance.q2;
 public class Car extends Vehicle{
 
     int y;
-    Car(){
+    Car(){//default constructor
         super(10); // the second constructor calls the parent class constructor
         // using super and passing in the value of the parameter y
     }
     Car(int y){
-        super(y);// this is second constructor ,
+        super(y);// this is second constructor with parameter
         // the second constructor calls the parent class constructor using super
         // and passing in the value of the parameter y
         this.y = y;
