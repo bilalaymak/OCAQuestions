@@ -25,18 +25,21 @@ public class Q07 {
         int x = 3, y = 5;
         Q07 obj = new Q07(x,y);
         System.out.println(x + " " + y);//3 5 prints the local variables
-
+        //If you want to print the instance variables, you need to call them by obj.x and obj.y
     }
 /*
-            The class has two instance variables, x and y,
-            and a constructor that takes two int arguments, x and y.
-            The constructor calls a private method called initialize,
-            which assigns the square of the x argument to the x instance variable,
-            and the square of the y argument to the y instance variable.
-            The main method creates an instance of the Q07 class and
-            assigns the value 3 to the x variable and 5 to the y variable.
-            Then it calls the println method on the System.out object to print the value of x and y.
-            The output of the program will be "3 5"
+         In the code you've provided, you have defined a class called Q07 that has two private instance variables,
+         x and y, as well as a constructor that takes in two integer arguments, x and y, and calls the initialize method.
+         The initialize method takes in two integer arguments, x and y,
+         and sets the instance variables x and y equal to the squares of the input arguments.
+         In the main method,
+         you are creating a new instance of Q07 called obj and passing in the local variables x and y,
+         which are set to 3 and 5 respectively.
+         The constructor is called and the initialize method is called with the arguments x and y as input,
+         so the instance variables x and y of the obj are set to 9 and 25.
+         Then you are printing out the value of local variables x and y which are 3 and 5.
+         The instance variables of the obj are not being printed.
+         If you want to print the instance variables, you need to call them by obj.x and obj.y.
  */
 
 
